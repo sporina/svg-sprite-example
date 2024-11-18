@@ -1,0 +1,50 @@
+
+.icon-size-s {
+    display: block;
+    width: 20px; height: 20px;
+    //background-color: rgb(5, 183, 29);
+}
+.toolbar-button--size-s {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    
+}
+.toolbar-button--size-s:hover {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #e1e1e1;
+}
+
+
+.toolbar-button--size-s span, .toolbar-button--size-s label {
+    padding-inline: 4px;
+    font-size: 12px;
+}
+.toolbar {
+    display: flex;
+    gap: 4px;
+    background-color: #eee;
+    height: 40px;
+    align-items: center;
+    padding-inline: 8px;
+}
+.separator {
+    background-color: #b2b0b0;
+    width: 1px; height: 20px;
+}
+
+
+* {
+    //border: 2px solid rebeccapurple;
+}
+
+.icon-name-save {
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE3IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjdsLTQtNHptMiAxNkg1VjVoMTEuMTdMMTkgNy44M1YxOXptLTctN2MtMS42NiAwLTMgMS4zNC0zIDNzMS4zNCAzIDMgMyAzLTEuMzQgMy0zLTEuMzQtMy0zLTN6TTYgNmg5djRINnoiLz48L3N2Zz4=)
+}
