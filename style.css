@@ -1,8 +1,13 @@
+/* Hidden container holding the SVG sprite symbols */
+.sprite {
+    display: none;
+}
 
 .icon-size-s {
     display: block;
     width: 20px; height: 20px;
-    //background-color: rgb(5, 183, 29);
+    fill: currentColor;
+    /* background-color: rgb(5, 183, 29); */
 }
 .toolbar-button--size-s {
     display: flex;
@@ -11,19 +16,14 @@
     border-radius: 4px;
     border: 1px solid transparent;
     background-color: transparent;
-    
+    color: #000;
 }
 .toolbar-button--size-s:hover {
-    display: flex;
-    align-items: center;
-    padding: 4px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    border-color: #ccc;
     background-color: #e1e1e1;
 }
 
-
-.toolbar-button--size-s span, .toolbar-button--size-s label {
+.toolbar-button--size-s span {
     padding-inline: 4px;
     font-size: 12px;
 }
@@ -40,11 +40,8 @@
     width: 1px; height: 20px;
 }
 
-
+/* Debug outline:
 * {
-    //border: 2px solid rebeccapurple;
+    border: 2px solid rebeccapurple;
 }
-
-.icon-name-save {
-    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE3IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjdsLTQtNHptMiAxNkg1VjVoMTEuMTdMMTkgNy44M1YxOXptLTctN2MtMS42NiAwLTMgMS4zNC0zIDNzMS4zNCAzIDMgMyAzLTEuMzQgMy0zLTEuMzQtMy0zLTN6TTYgNmg5djRINnoiLz48L3N2Zz4=)
-}
+*/
